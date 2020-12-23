@@ -72,36 +72,36 @@ function gotResult(error,result){
     speak();
 
 
-    if(result[0].label == "happy"){
+    if(result[0].label == "Happy"){
 
        document.getElementById("update_emoji").innerHTML = "&#128512;";
 
     }
-    if(result[0].label == "angry"){
+    if(result[0].label == "Angry"){
 
       document.getElementById("update_emoji").innerHTML = "&#128545;";
 
     }
-    if(result[0].label == "sad"){
+    if(result[0].label == "Sad"){
 
     document.getElementById("update_emoji").innerHTML = "&#128532;";
 
     }
 
     
-    if(result[1].label == "happy"){
+    if(result[1].label == "Happy"){
 
      document.getElementById("update_emoji2").innerHTML = "&#128512;";
 
     }
 
-    if(result[1].label == "angry"){
+    if(result[1].label == "Angry"){
 
      document.getElementById("update_emoji2").innerHTML = "&#128545;";
 
     }
 
-    if(result[1].label == "sad"){
+    if(result[1].label == "Sad"){
 
       document.getElementById("update_emoji2").innerHTML = "&#128532";
  
